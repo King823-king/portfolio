@@ -64,7 +64,7 @@ export const experiencesData = [
     description:
       "I mentored junior developers and worked on various projects. So I was succed in application development and showed ability to rapidly prototype and iterate on front-end designs.",
     icon: React.createElement(FaReact),
-    date: "2021 - 2023",
+    date: "2023 - 2024",
   },
 ] as const;
 
@@ -86,9 +86,9 @@ export const projectsData = [
     imageUrl: philipImg,
   },
   {
-    title: "Word Analytics",
+    title: "Mind Studios",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "This is web application for Mind Studios ,I took part in front-end development.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: mindstudioImg,
     siteUrl:"https://themindstudios.com/"
