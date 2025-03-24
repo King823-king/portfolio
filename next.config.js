@@ -9,7 +9,6 @@ const nextConfig = {
     ],
     loader: "default",
     unoptimized: true,
-    domains: ["images.unsplash.com"],
   },
   experimental: {
     serverActions: true,
