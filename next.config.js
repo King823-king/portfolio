@@ -3,14 +3,13 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        loader: "default",
         protocol: "https",
-        path: "https://playful-cendol-105543.netlify.app/",
-        domains: ["images.unsplash.com"],
         hostname: "images.unsplash.com",
-        unoptimized: true,
       },
     ],
+    loader: "default",
+    unoptimized: true,
+    domains: ["images.unsplash.com"],
   },
   experimental: {
     serverActions: true,
